@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI';
+}
+
+.containerPrincipal{
+    width: 1365px;
+    height: 586px;
+    background-color: #fff;
+    margin: 0 auto;
+}
+
+.cab{
+    width: 1365px;
+    height: 105px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    width: 1365px;
+    height: 343px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+.titulo{
+    width: 306px;
+    height: 36px;
+    display: block;
+    text-align: center;
+    font-size: 24px;
+    font-family: "Segoe UI";
+    color: #1f2328;
+    margin: 0 auto;
+    margin-bottom: 16px;
+}
+h1{
+    font-size: 14px;
+    text-align: center;
+}
+
+.caixa{
+    width: 308px;
+    height: 220px;
+    background-color: #f6f8fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border: 1px solid hsla(210,18%,87%,1);
+    border-radius: 5px;
+}
+
+label{
+    display: block;
+    margin-bottom: 8px;
+    text-align: left;
+}
+
+input {
+ width: 400px;
+ height: 18px;
+ background-color: #218bff;
+ font-size: 14px;
+ border: red solid 3px;
+}
+
+.inputLogin input{
+    margin-bottom: 10px;
+    height: 32px;
+}
+
+.passwordExtra{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    }
+.forgot{
+    font-size: 11px;
+}
+.subtitulo{
+    width: 308px;
+    height: 55px;
+    background-color: #fff;
+    border-radius: 6px;
+    margin-top: 12px;
+    border: 1px solid hsla(210,18%,87%,1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    }
+
+    .btn{
+        margin-top: 10px;
+        width: 280px;
+        background-color: #1f883d;
+        color: #fff;
+      
+    }
+
+    .tituloLink{
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .rodape{
+        width: 1012px;
+        height: 98px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 16px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    li{
+        display: list-item;
+        margin-left: 25px;
+        list-style: none;
+        font-size: 12px;
+        color: #218bff;
+    }
+
+    .extra{
+        color: #6e7781;
+    }
+
+
